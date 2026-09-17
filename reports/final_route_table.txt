@@ -1,0 +1,5 @@
+default via 192.168.232.2 dev eth0 proto dhcp src 192.168.232.128 metric 100 
+172.17.0.0/16 dev docker0 proto kernel scope link src 172.17.0.1 linkdown 
+172.18.0.0/16 dev br-d2696585dc9a proto kernel scope link src 172.18.0.1 
+172.19.0.0/16 dev br-ec90d8c3abfb proto kernel scope link src 172.19.0.1 linkdown 
+192.168.232.0/24 dev eth0 proto kernel scope link src 192.168.232.128 metric 100 
